@@ -1,0 +1,73 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    overflow-x: hidden; /* Memastikan tidak ada overflow horizontal */
+}
+
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.row {
+   margin: 0;
+   padding: 0;
+}
+
+/* ZOOOMM */
+.zoom {
+    transition: transform .2s;
+
+}
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+
+/* section login  */
+
+.row {
+    background-image: url('asset/backgroundlogin.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.petani{
+    height: 600px;
+}
+
+.form-control{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+
+}
+.form-login{
+    margin-left: 50px;
+}
+.logo {
+    height: 30px; 
+    width: auto;
+    justify-content: start;
+}
+
+.btn-success {
+    background-color: #203B1F;
+    border-color: #203B1F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.btn-success:hover {
+    background-color: #FDC858;
+    border-color: #FDC858;
+    color: #203B1F;
+
+}
