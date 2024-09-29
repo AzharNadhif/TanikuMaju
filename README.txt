@@ -1,4 +1,4 @@
-Website: TaniKuMaju (https://tanikumaju.netlify.app)
+Website: TaniKuMaju (http://tanikumaju.novarco.id)
 
 Fitur Utama: 
 1. Pantau Tani: Untuk monitoring lahan pertanian
