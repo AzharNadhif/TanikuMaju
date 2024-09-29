@@ -276,6 +276,12 @@ body {
   text-decoration: none;
 }
 
+.section4 a:hover{
+  background-color: #2F4D3C;
+  border-color: #2F4D3C;
+  color: #F7C35F;
+}
+
 @media (max-width: 768px) {
   .section4 h2 {
     font-size: 1.8rem;
